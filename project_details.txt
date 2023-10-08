@@ -1,0 +1,43 @@
+class Employee {
+    private String name;
+    private String title;
+    private String post;
+    private String instituteName;
+    private double basicPay;
+    private double dearnessAllowance;
+    private double houseRentAllowance;
+    private double travelingAllowance;
+    private double gpf;  // Mandatory GPF deduction
+    private double insurance;  // Mandatory insurance deduction
+    private double incomeTax;  // Income tax deduction
+
+    // Constructor, getters, setters, and methods for salary calculations, increments, and deductions.
+}
+
+class SalarySlip {
+    private String month;
+    private int year;
+    private double basicPay;
+    private double dearnessAllowance;
+    private double houseRentAllowance;
+    private double travelingAllowance;
+    private double totalIncome;
+    private double deductions;
+    private double netSalary;
+
+    // Constructor and methods for salary calculations and slip generation.
+}
+
+public class PayrollSystem {
+    public static void main(String[] args) {
+        // Example usage:
+        Employee employee = new Employee(/* Initialize employee details */);
+        SalarySlip salarySlip = new SalarySlip(/* Initialize slip details */);
+
+        // Calculate and generate the salary slip for the employee.
+        salarySlip.calculateSalary();
+        salarySlip.generateSlip();
+
+        // Print or save the salary slip as needed.
+    }
+}
