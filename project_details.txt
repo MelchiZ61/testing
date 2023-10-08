@@ -7,7 +7,7 @@ class Employee {
     private double dearnessAllowance;
     private double houseRentAllowance;
     private double travelingAllowance;
-    private double gpf;  // Mandatory GPF deduction
+    private double gpf;  // Mandatory GPF deduction oooooooooooooooga
     private double insurance;  // Mandatory insurance deduction
     private double incomeTax;  // Income tax deduction
 
